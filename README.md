@@ -1,0 +1,2 @@
+# Step-by-Step Memory Allocation Project for Operating Systems in C
+ This project implements memory allocation algorithms—First Fit, Best Fit, and Worst Fit—in C programming. The user interacts with the program to input the number and sizes of memory blocks and processes. The algorithms allocate processes to memory blocks based on their sizes, aiming to optimize memory utilization. A notable feature is the display of the allocation process at each step, providing a detailed view of how processes are assigned to blocks.
