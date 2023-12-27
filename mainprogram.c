@@ -86,7 +86,7 @@ int main() {
     int n = 1;
     while (n == 1) {
         int x;
-        printf("For first fit press 1\nFor best fit press 2\nFor worst fit press 3\nTo quit press 0\n");
+        printf("For first fit press 1\nFor best fit press 2\nFor worst fit press 3\nTo quit press 0\n\n");
         scanf("%d", &x);
         switch (x) {
             case 1: {
@@ -117,7 +117,7 @@ int main() {
                 for (int i = 0; i < m; i++) {
                     scanf("%d", &block[i]);
                 }
-                printf("\nEnter numbermksks of processes: ");
+                printf("\nEnter number of processes: ");
                 scanf("%d", &n);
                 int proc[n];
                 printf("Enter process sizes:\n");
